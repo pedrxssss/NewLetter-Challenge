@@ -1,0 +1,28 @@
+/* _reset.scss */
+
+/* Box sizing border-box para todos os elementos */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Reset de margens e preenchimentos para diversos elementos */
+  html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd, dt {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Listas não possuem marcadores ou estilo por padrão */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Estilo padrão para elementos embutidos */
+  img, iframe {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Remover decoração de link padrão */
+  a {
+    text-decoration: none;
+  }

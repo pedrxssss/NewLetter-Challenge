@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/* _reset.scss */
+/* Box sizing border-box para todos os elementos */
+* {
+  box-sizing: border-box;
+}
+
+/* Reset de margens e preenchimentos para diversos elementos */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd, dt {
+  margin: 0;
+  padding: 0;
+}
+
+/* Listas não possuem marcadores ou estilo por padrão */
+ul, ol {
+  list-style: none;
+}
+
+/* Estilo padrão para elementos embutidos */
+img, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remover decoração de link padrão */
+a {
+  text-decoration: none;
+}
+
+/* _variables.scss */
+/* Cores */
+/* Cores Neutras*/
+/* Fontes */
+/* _variables.scss */
+/* Cores */
+/* Cores Neutras*/
+/* Fontes */
+header section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+header section h1 {
+  font-size: 1.5rem;
+  font-family: "Sora", sans-serif;
+  color: #899BFF;
+}
+header section h1 span {
+  text-transform: uppercase;
+  color: #F9f9f9;
+}
+header section .header-link {
+  border: 1px solid #899BFF;
+  border-radius: 6px;
+  padding: 21px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #F9f9f9;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+header section .header-link:hover {
+  background: #04D361;
+  transition: 1s;
+  border: 1px solid transparent;
+}
+
+/* _variables.scss */
+/* Cores */
+/* Cores Neutras*/
+/* Fontes */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 105px;
+  /*Welcome section*/
+  /*Subscribe section*/
+}
+.main-content .welcome-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.main-content .welcome-section .welcome-title {
+  color: #F9f9f9;
+  font-size: 3rem;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  width: 547px;
+  margin-bottom: 2rem;
+}
+.main-content .welcome-section .welcome-subtitle {
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #899BFF;
+}
+.main-content .subscribe-section {
+  margin-bottom: 10rem;
+}
+.main-content .subscribe-section .subscribe-title {
+  font-family: "Inter", sans-serif;
+  font-size: 1.625rem;
+  font-weight: 500;
+  color: #AEAEAE;
+  margin-bottom: 3rem;
+}
+.main-content .subscribe-section .subscribe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.main-content .subscribe-section .subscribe-form .form-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+.main-content .subscribe-section .subscribe-form .form-field .form-label {
+  color: #AEAEAE;
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.main-content .subscribe-section .subscribe-form .form-field .form-input {
+  border-radius: 4px;
+  border: 1px solid #212529;
+  background: #0C0C0C;
+  width: 100%;
+  height: 60px;
+  flex-shrink: 0;
+  color: #F9f9f9;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  padding-left: 1rem;
+}
+.main-content .subscribe-section .form-submit {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0C0C0C;
+  background: #899BFF;
+  width: 100%;
+  height: 60px;
+  border-radius: 0.4rem;
+  border: none;
+  cursor: pointer;
+}
+.main-content .subscribe-section .form-submit:hover {
+  background: rgba(137, 155, 255, 0.5843137255);
+  color: #F9f9f9;
+  transition: 1s;
+}
+
+body {
+  background: linear-gradient(252deg, #212529 0%, #0C0C0C 100%);
+  width: 100vw;
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */

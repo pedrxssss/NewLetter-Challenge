@@ -1,0 +1,40 @@
+@import "../base/variaveis";
+
+header {
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 2rem;
+
+        h1 {
+            font-size: 1.5rem;
+            font-family: $font-Sora;
+            color: $roxo;
+
+            span {
+                text-transform: uppercase;
+                color: $claro;
+            }
+        }
+
+        .header-link {
+            border: 1px solid $roxo;
+            border-radius: 6px;
+            padding: 21px 30px;
+
+            text-transform: uppercase;
+            text-decoration: none;
+            color: $claro;
+
+            font-family: $font-inter;
+            font-weight: 500;
+
+            &:hover {
+                background: $verde;
+                transition: 1s;
+                border: 1px solid transparent;
+            }
+        }
+    }
+}

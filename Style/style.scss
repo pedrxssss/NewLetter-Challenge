@@ -1,0 +1,10 @@
+@import 'base/reset';
+@import 'base/variaveis';
+@import 'components/cabecalho';
+@import 'components/main';
+
+body {
+    background: linear-gradient(252deg, $escuro-200 0%, $escuro 100%);
+    width: 100vw;
+    height: 100%;
+}
